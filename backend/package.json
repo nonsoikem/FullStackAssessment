@@ -1,0 +1,53 @@
+{
+  "name": "peptide-suggestions-backend",
+  "version": "1.0.0",
+  "description": "Backend API for peptide suggestions health app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": ["peptides", "health", "suggestions", "api", "express"],
+  "author": "Senior Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.11.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "express-async-errors": "^3.1.1",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "openai": "^4.24.1",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-oauth-server": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourorg/peptide-suggestions-backend.git"
+  }
+}

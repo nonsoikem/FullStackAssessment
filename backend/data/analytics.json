@@ -1,0 +1,40 @@
+{
+  "2025-06-14": {
+    "date": "2025-06-14",
+    "totalRequests": 0,
+    "successfulRequests": 0,
+    "failedRequests": 0,
+    "goalSelections": {
+      "sleep": 2,
+      "recovery": 1,
+      "longevity": 1,
+      "energy": 1,
+      "focus": 1
+    },
+    "errors": [],
+    "averageResponseTime": 0,
+    "uniqueIPs": [],
+    "firstRequest": null,
+    "lastRequest": null
+  },
+  "2025-06-15": {
+    "date": "2025-06-15",
+    "totalRequests": 1,
+    "successfulRequests": 1,
+    "failedRequests": 0,
+    "goalSelections": {
+      "energy": 3,
+      "sleep": 4,
+      "weight_management": 2,
+      "immune_support": 2,
+      "focus": 4
+    },
+    "errors": [],
+    "averageResponseTime": 0,
+    "uniqueIPs": [
+      "unknown"
+    ],
+    "firstRequest": "2025-06-15T08:26:17.731Z",
+    "lastRequest": "2025-06-15T08:26:17.731Z"
+  }
+}
