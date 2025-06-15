@@ -14,7 +14,7 @@ A full-stack web application that provides personalized peptide recommendations 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nonsoikem/FullStackAssessment
    cd peptide-suggestions-app
    ```
 
