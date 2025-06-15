@@ -15,7 +15,7 @@ A full-stack web application that provides personalized peptide recommendations 
 
    ```bash
    git clone https://github.com/nonsoikem/FullStackAssessment
-   cd peptide-suggestions-app
+
    ```
 
 2. **Backend Setup**
@@ -154,3 +154,7 @@ If this were a production application, the following enhancements would be imple
 #### 4. **Database Server**
 
 - **Use of a proper SQL Database**: For production we would use a proper database server eg MySql, Microsoft SQL etc for enhanced database performance and security
+
+#### 5. **TypeScript**
+
+- **Use of Typescript**: For production, we would introduce TypeScript to ensure type safety, improved developer experience, and fewer runtime errors
